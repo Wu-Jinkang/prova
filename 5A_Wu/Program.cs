@@ -23,14 +23,7 @@ namespace Min_Max
                 Console.Out.WriteLine("Inserisci un numero: ");
                 V[i] = Convert.ToInt32(Console.ReadLine());
             }
-            //Chiama la funzione
-            Ordinamento(V);
-            //Output
-            Console.WriteLine("l'Output: ");
-            for (int i = 0; i < V.Length; i++)
-            {
-                Console.Out.WriteLine(V[i]);
-            }
+            Console.Out.WriteLine(Avg(V));
             Console.ReadLine();
         }
         static int Avg(int[] array)
