@@ -33,6 +33,11 @@ namespace Min_Max
             }
             Console.ReadLine();
         }
+        /*
+         * Funzione Avg 
+         * input: array di interi
+         * output: valore media dell'array
+         * */
         static int Avg(int[] array)
         {
             int avg = 0;
