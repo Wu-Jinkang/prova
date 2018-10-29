@@ -10,13 +10,17 @@ namespace Min_Max
     {
         static void Main(string[] args)
         {
+            //Inizialiazzaione
             int[] V = new int[10];
+            //Input
             for (int i = 0; i < 10; i++)
             {
                 Console.Out.WriteLine("Inserisci un numero: ");
                 V[i] = Convert.ToInt32(Console.ReadLine());
             }
+            //Chiama la funzione
             Ordinamento(V);
+            //Output
             Console.WriteLine("l'Output: ");
             for (int i = 0; i < V.Length; i++)
             {
