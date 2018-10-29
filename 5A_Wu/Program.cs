@@ -80,7 +80,11 @@ namespace Min_Max
             }
             return min;
         }
-
+        /*
+         * Funzione Ordinamento
+         * input: array di interi
+         * output: l'array di interi ordinato decrescente
+         * */
         static void Ordinamento(int[] array)
         {
             int temp = 0; 
