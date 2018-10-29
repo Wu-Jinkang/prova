@@ -1,0 +1,6 @@
+C:\Users\studente\Desktop\5A_Wu\5A_Wu\bin\Debug\5A_Wu.exe.config
+C:\Users\studente\Desktop\5A_Wu\5A_Wu\bin\Debug\5A_Wu.exe
+C:\Users\studente\Desktop\5A_Wu\5A_Wu\bin\Debug\5A_Wu.pdb
+C:\Users\studente\Desktop\5A_Wu\5A_Wu\obj\Debug\5A_Wu.csprojResolveAssemblyReference.cache
+C:\Users\studente\Desktop\5A_Wu\5A_Wu\obj\Debug\5A_Wu.exe
+C:\Users\studente\Desktop\5A_Wu\5A_Wu\obj\Debug\5A_Wu.pdb
