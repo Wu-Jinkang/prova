@@ -35,7 +35,7 @@ namespace Min_Max
         }
         static int Max(int[] array)
         {
-            int max;
+            int max = 0;
             max = array[0];
             for (int i = 0; i < 10; i++)
             {
@@ -46,7 +46,7 @@ namespace Min_Max
         }
         static int Min(int[] array)
         {
-            int min;
+            int min = 0;
             min = array[0];
             for (int i = 0; i < 10; i++)
             {
@@ -58,7 +58,7 @@ namespace Min_Max
 
         static void Ordinamento(int[] array)
         {
-            int temp;
+            int temp = 0; 
             for (int i = 0; i < array.Length; i++)
             {
                 for (int j = 0; j < array.Length - 1; j++)
