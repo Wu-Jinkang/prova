@@ -48,6 +48,11 @@ namespace Min_Max
             avg /= 10;
             return avg;
         }
+        /*
+         * Funzione Max
+         * input: array di interi
+         * output: valore massimo dell'array
+         * */
         static int Max(int[] array)
         {
             int max = 0;
