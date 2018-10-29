@@ -33,6 +33,16 @@ namespace Min_Max
             }
             Console.ReadLine();
         }
+        static int Avg(int[] array)
+        {
+            int avg = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                avg += array[i];
+            }
+            avg /= 10;
+            return avg;
+        }
         static int Max(int[] array)
         {
             int max;
