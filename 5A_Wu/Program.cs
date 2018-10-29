@@ -26,6 +26,11 @@ namespace Min_Max
             Console.Out.WriteLine(Avg(V));
             Console.ReadLine();
         }
+        /*
+         * Funzione Avg 
+         * input: array di interi
+         * output: valore media dell'array
+         * */
         static int Avg(int[] array)
         {
             int avg = 0;
@@ -36,6 +41,11 @@ namespace Min_Max
             avg /= 10;
             return avg;
         }
+        /*
+         * Funzione Max
+         * input: array di interi
+         * output: valore massimo dell'array
+         * */
         static int Max(int[] array)
         {
             int max = 0;
@@ -47,6 +57,11 @@ namespace Min_Max
             }
             return max;
         }
+        /*
+         * Funzione Min
+         * input: array di interi
+         * output: il valore minimo dell'array
+         * */
         static int Min(int[] array)
         {
             int min = 0;
@@ -58,7 +73,11 @@ namespace Min_Max
             }
             return min;
         }
-
+        /*
+         * Funzione Ordinamento
+         * input: array di interi
+         * output: l'array di interi ordinato decrescente
+         * */
         static void Ordinamento(int[] array)
         {
             int temp = 0; 
