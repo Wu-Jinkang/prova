@@ -64,6 +64,11 @@ namespace Min_Max
             }
             return max;
         }
+        /*
+         * Funzione Min
+         * input: array di interi
+         * output: il valore minimo dell'array
+         * */
         static int Min(int[] array)
         {
             int min = 0;
