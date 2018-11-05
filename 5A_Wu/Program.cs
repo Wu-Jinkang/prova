@@ -25,6 +25,14 @@ namespace Min_Max
                 V[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.Out.WriteLine(Avg(V));
+
+            Ordinamento(V);
+
+            foreach (int i in V)
+            {
+                Console.WriteLine(i);
+            }
+
             Console.ReadLine();
         }
         /*
@@ -39,7 +47,7 @@ namespace Min_Max
             {
                 avg += array[i];
             }
-            avg /= 10;
+            avg /= array.Length;
             return avg;
         }
         /*
@@ -81,16 +89,15 @@ namespace Min_Max
          * */
         static void Ordinamento(int[] array)
         {
-            int temp = 0; 
             for (int i = 0; i < array.Length; i++)
             {
-                for (int j = 0; j < array.Length - 1; j++)
+                for (int j = i + 1; j < array.Length; j++)
                 {
-                    if (array[j] < array[j + 1])
+                    if (array[i] > array[j])
                     {
-                        temp = array[j + 1];
-                        array[j + 1] = array[j];
-                        array[j] = temp;
+                        array[i] += array[j];
+                        array[j] = array[i] - array[j];
+                        array[i] -= array[j];
                     }
                 }
             }
